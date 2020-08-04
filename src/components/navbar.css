@@ -58,16 +58,20 @@ li:hover{
 }
 .headlines,
 .topic{
-    /* width: 50vw; */
+    /* width: 100vw; */
     text-align: center;
     border: 1px solid #D9042B;
-    margin-top: 30px;
+    margin-top: 40px;
+    padding: 10px 30px;
 }
 .country-form,
 .topic-form{
     text-align: center;
 }
-
+.topic-input,
+.country-input{
+    padding-bottom: 10px;
+}
 .headline-button,
 .topic-button{
     padding: 5px 20px;
@@ -75,7 +79,7 @@ li:hover{
     border-radius: 10rem;
     color: white;
     background-color: #D9042B;
-    margin-bottom: 20px;
+    margin: 20px 20px;
 }
 .search-section{
     width: 90%;
