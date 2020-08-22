@@ -3,9 +3,9 @@ import Navbar from './components/navbar'
 import HeaderImage from './components/header-image';
 import About from './components/about'
 import Headline from './components/headline'
-import Topics from './components/topics'
+// import Topics from './components/topics'
 import Newsitem from './components/newsitem'
-import axios from 'axios'
+// import axios from 'axios'
 import {Route, BrowserRouter as Router} from 'react-router-dom'
 // import './App.css';
 // import axios from 'axios';

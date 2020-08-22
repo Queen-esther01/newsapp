@@ -17,7 +17,7 @@ class Newsitem extends Component {
             <div className = 'news-container'>
                 { this.props.item.map(data => (
                 <div key={data.id} className = 'news-box'>
-                    <img src = {data.urlToImage} />
+                    <img src = {data.urlToImage} alt='news' />
                     <h5> {data.title}</h5>
                     <p> {data.description} </p>
                     <p><a href = {data.url}>Read More</a></p>
