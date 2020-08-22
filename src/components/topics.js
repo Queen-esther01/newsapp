@@ -21,7 +21,7 @@ class Topics extends Component {
                 <form className = 'topic-form'>
                     <label htmlFor='topic'>Type in a Country to get latest happenings</label>
                     {/* <div className = 'input-wrapper'></div> */}
-                    <input autoFocus value = {this.state.topic} onChange ={this.handleChange} className ="topic-input" type = 'text' />
+                    <input value = {this.state.topic} onChange ={this.handleChange} className ="topic-input" type = 'text' />
                 </form>
                 <button className = 'topic-button' onClick = {this.handleClick} >check</button> 
             </div>
