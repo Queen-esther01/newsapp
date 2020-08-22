@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Newsitem from './newsitem'
 // import { Link} from 'react-router-dom'
 import axios from 'axios'
+import image from '../../src/img/angle.png';
 
 
 class Headline extends Component {
@@ -51,13 +52,14 @@ class Headline extends Component {
                     <label htmlFor='country'>Search for news by typing in a topic you find interesting</label>
                     <input autoFocus value = {this.state.country} onChange ={this.handleChange} className ="country-input" type = 'text' />
                 </form> */}
-                <p>Note: The Search functionality is unavailable for now.</p>
+                <p id ='top'>Note: The Search functionality is unavailable for now.</p>
                 {/* <button className = 'headline-button' onClick = {this.handleClick}>
                     Search
                     <Link to ='/newsitem'>check</Link>
                     
                 </button> */}
             </div>
+            <a href = '#top'><img src={image} alt = 'angle' className='angle'/></a>
             {/* {this.state.data.map(news => {
                    return <Newsitem key = {news.source.id} allnews = {news} />
                 })

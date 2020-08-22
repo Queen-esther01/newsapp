@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import image from '../../src/img/angle.png';
+
 
 class Newsitem extends Component {
     // constructor(props) {
@@ -25,7 +25,6 @@ class Newsitem extends Component {
                 </div>
                 
             )) }
-            <img src={image} alt = 'angle' className='angle'/>
             </div>
         )
     }
