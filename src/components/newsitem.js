@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import image from '../../src/img/angle.png';
 
 class Newsitem extends Component {
     // constructor(props) {
@@ -17,13 +18,14 @@ class Newsitem extends Component {
             <div className = 'news-container'>
                 { this.props.item.map(data => (
                 <div key={data.id} className = 'news-box'>
-                    <img src = {data.urlToImage} alt='news' />
+                    <img src = {data.image} alt='news' />
                     <h5> {data.title}</h5>
                     <p> {data.description} </p>
-                    <p><a href = {data.url}>Read More</a></p>
+                    <p><a href = {data.url} target ='_blank' rel='noopener noreferrer'>Read More</a></p>
                 </div>
                 
             )) }
+            <img src={image} alt = 'angle' className='angle'/>
             </div>
         )
     }

@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 .bg-primary{
     background-color: #D9042B;
 }
@@ -70,10 +73,14 @@ li:hover{
     width: 400px;
 
 }
+.headlines p{
+    font-family: 'itim', cursive;
+}
 .country-form,
 .topic-form{
     text-align: center;
     font-family: 'Bad Script', cursive;
+    font-weight: 700;
 }
 .topic-input,
 .country-input{
@@ -115,6 +122,12 @@ li:hover{
 }
 .news-box p{
     font-family: 'Itim', cursive;
+}
+.angle{
+    width: 25px;
+    position: fixed;
+    margin-right: 20px;
+    right: 0;
 }
 @media(min-width: 500px) and (max-width: 800px){
     .header-image h3{
