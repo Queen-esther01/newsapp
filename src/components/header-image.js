@@ -5,8 +5,8 @@ import './navbar.css'
 const HeaderImage = () => {
     return (
         <div className='header-image'>
-           <h3>Discover the latest news in
-               countries all over the world</h3>
+           <h3>Discover the latest news on
+               topics around the world</h3>
         </div>
     )
 }
